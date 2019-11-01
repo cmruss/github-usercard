@@ -86,8 +86,8 @@ function createFollowerCard(follower) {
     username.classList.add('username')
 
     img.src = follower.data.avatar_url;
-    name.textContent = `Name: ${follower.data.name}`;
-    username.textContent = `Username: ${follower.data.login}`;
+    name.textContent = `${follower.data.name}`;
+    username.textContent = `${follower.data.login}`;
     location.textContent = `Location: ${follower.data.location}`;
     profile.textContent = `Profile: `;
     link.textContent = `${follower.data.html_url}`;
